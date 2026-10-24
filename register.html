@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +12,8 @@
 
 <body class=" bg-[#F8F5EE] text-[#30351F]">
     <header class="w-full sticky top-0 z-50">
-        <div class="w-full max-w-[1600px] mx-auto p-6 bg-[#FCFAF5] border-b border-[#D7D2B8] border flex justify-between items-center">
+        <div
+            class="w-full max-w-[1600px] mx-auto p-6 bg-[#FCFAF5] border-b border-[#D7D2B8] border flex justify-between items-center">
             <h2 class="text-4xl font-['Cormorant_Garamond',serif] font-medium text-[#30351F]">R&V</h2>
             <nav class="hidden sm:block">
                 <ul class="flex gap-20 text-[20px] text-[#30351F]">
@@ -28,8 +30,82 @@
             </div>
         </div>
     </header>
- <section class="w-full max-w-[1600px] mx-auto">
+    <section class="w-full max-w-[1600px] mx-auto">
         <div class="w-full relative h-[300px] md:h-[700px]
-         bg-cover bg-[-center_35%] rounded-xl" style="background-image: url('images/il_fullxfull.5670288921_nwmv.webp');">
+         bg-cover bg-[-center_35%] rounded-xl"
+            style="background-image: url('images/il_fullxfull.5670288921_nwmv.webp');">
         </div>
+    </section>
+    <section class="w-full max-w-[1600px] mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="max-w-[90%] text-[#30351F] font-['Cormorant_Garamond',serif] font-bold px-6 md:px-12 py-16">
+                <h2 class="text-2xl tracking-[5px]">JOIN US FOR OUR SPECIAL DAY</h2>
+                <h2 class="text-6xl md:text-8xl pt-2 ">REGISTER</h2>
+                <p class="text-2xl pt-5 ">Be a part of our journey and<br> help us make this celebration even more
+                    special.</p>
+            </div>
+
+
+            <div class="px-4 sm:px-8 md:px-12 py-10 md:py-16">
+                <form action="#" method="post" class="max-w-3xl mx-auto">
+
+                    <h2 class="text-2xl text-[#30351F] pb-4">
+                        Kindly Respond
+                    </h2>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                        <div>
+                            <label for="firstName" class="block">First name *</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Enter a first name."
+                                required class="w-full border border-black p-3 mt-2 rounded-md">
+                        </div>
+
+                        <div>
+                            <label for="lastName" class="block">Last name *</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Enter a last name." required
+                                class="w-full border border-black p-3 mt-2 rounded-md">
+                        </div>
+
+                    </div>
+
+                    <div class="mt-5">
+                        <label for="email" class="block">Email *</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email." required
+                            class="w-full border border-black p-3 mt-2 rounded-md">
+                    </div>
+
+                    <h2 class="text-2xl text-[#30351F] mt-8 pb-3">
+                        Will You Attend? *
+                    </h2>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+
+                        <button type="button"
+                            class="w-full border border-black px-4 py-3 rounded-md hover:bg-[#30351F] hover:text-white hover:cursor-pointer">
+                            Joyfully Attend
+                        </button>
+
+                        <button type="button"
+                            class="w-full border border-black px-4 py-3 rounded-md hover:bg-[#30351F] hover:text-white hover:cursor-pointer">
+                            Regretfully Decline
+                        </button>
+
+                    </div>
+
+                    <div class="mt-5">
+                        <label for="guest" class="block">Number of guests *</label>
+                        <input type="number" name="guest" id="guest" min="1" placeholder="Enter number of guests"
+                            required class="w-full border border-black p-3 mt-2 rounded-md">
+                    </div>
+                    <button type="submit"
+                        class="w-full sm:w-auto sm:min-w-52 border border-black px-10 py-3 rounded-md mt-6 bg-[#30351F] text-white hover:cursor-pointer ">
+                        Submit
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+
     </section>
